@@ -1,10 +1,10 @@
-import React, { ReactNode } from 'react'
-import Head from 'next/head'
+import React, { ReactNode } from 'react';
+import Head from 'next/head';
 
 type Props = {
-  children?: ReactNode
-  title?: string
-}
+  children?: ReactNode;
+  title?: string;
+};
 
 const Layout = ({ children, title = 'Elevapp' }: Props): JSX.Element => (
   <div>
@@ -15,6 +15,6 @@ const Layout = ({ children, title = 'Elevapp' }: Props): JSX.Element => (
     </Head>
     {children}
   </div>
-)
+);
 
-export default Layout
+export default Layout;

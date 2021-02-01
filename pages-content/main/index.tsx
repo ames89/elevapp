@@ -11,8 +11,7 @@ export const Main = (): JSX.Element => {
           <IconButton edge="start" color="inherit" aria-label="menu">
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6">News</Typography>
-          <Button color="inherit">Login</Button>
+          <Typography variant="h6">Elevapp</Typography>
         </Toolbar>
       </AppBar>
       <MapContainer />

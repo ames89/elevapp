@@ -1,8 +1,8 @@
 import Layout from '../components/Layout';
-import { Main } from '../pages-units/main';
+import { Main } from '../pages-content/main';
 
 const IndexPage = (): JSX.Element => (
-  <Layout title="Home | Next.js + TypeScript Example">
+  <Layout>
     <Main />
   </Layout>
 );
